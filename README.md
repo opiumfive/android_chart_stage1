@@ -21,3 +21,6 @@ https://github.com/opiumfive/android_chart_canva/blob/master/telechart_demo.mp4
 - 60 fps on last 4-lines chart on most devices;
 - circular reveal theme changing;
 - apk size 168kb (because without appcompat and using java not kotlin).
+
+<b>Known issues:</b>
+- X, Y labels animations not pretty work
