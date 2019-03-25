@@ -4,7 +4,7 @@ Goal is to show simple charts.
 
 The criteria to define the winner are speed, efficiency and the size of the app.
 
-<b>Result apk:</b> 
+<b>Result apk (as it was uploaded - from initial commit):</b> 
 
 https://github.com/opiumfive/android_chart_canva/blob/master/TeleChart.apk
 
