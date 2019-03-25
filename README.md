@@ -14,6 +14,7 @@ https://github.com/opiumfive/android_chart_canva/blob/master/telechart_demo.mp4
 
 Some notes:
 - done by simple 2d canvas rendering without any TextureView, SurfaceView or OpenGLES;
+- fling support
 - smooth Min/max adjusting made by Kalman filter adjusted with scroll velocity;
 - line check/uncheck animation by valueanimator;
 - optimized for small screens, for landscape mode with saving state;
