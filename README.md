@@ -1,4 +1,4 @@
-Telegram March contest 2019.
+<b>Telegram March contest 2019.</b> 
 
 Goal is to show simple charts.
 
@@ -12,7 +12,7 @@ https://github.com/opiumfive/android_chart_canva/blob/master/TeleChart.apk
 
 https://github.com/opiumfive/android_chart_canva/blob/master/telechart_demo.mp4
 
-Some notes:
+<b>Some notes:</b> 
 - done by simple 2d canvas rendering without any TextureView, SurfaceView or OpenGLES;
 - fling support
 - smooth Min/max adjusting made by Kalman filter adjusted with scroll velocity;
