@@ -1,0 +1,67 @@
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent</item>
+        <item name="android:homeAsUpIndicator">@drawable/arrow_left</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ActionBar.Transparent" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:logo">@drawable/transparent</item>
+        <item name="android:title">""</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Checkbox">
+        <item name="android:button">@drawable/checkbox</item>
+    </style>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="windowBackground">@color/windowBackground</item>
+        <item name="titleColor">@color/titleColor</item>
+        <item name="textColor">@color/textColor</item>
+        <item name="labelColor">@color/labelColor</item>
+        <item name="previewBackColor">@color/previewBackColor</item>
+        <item name="previewFrameColor">@color/previewFrameColor</item>
+        <item name="itemBackground">@color/itemBackground</item>
+        <item name="dividerColor">@color/dividerColor</item>
+        <item name="detailTitleColor">@color/detailTitleColor</item>
+        <item name="detailBackground">@drawable/shadow_light</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Dark</item>
+        <item name="colorPrimary">@color/colorPrimary_Dark</item>
+        <item name="windowBackground">@color/windowBackground_Dark</item>
+        <item name="titleColor">@color/titleColor_Dark</item>
+        <item name="textColor">@color/textColor_Dark</item>
+        <item name="labelColor">@color/labelColor_Dark</item>
+        <item name="previewBackColor">@color/previewBackColor_Dark</item>
+        <item name="previewFrameColor">@color/previewFrameColor_Dark</item>
+        <item name="itemBackground">@color/itemBackground_Dark</item>
+        <item name="dividerColor">@color/dividerColor_Dark</item>
+        <item name="detailTitleColor">@color/detailTitleColor_Dark</item>
+        <item name="detailBackground">@drawable/shadow_dark</item>
+    </style>
+
+    <attr name="colorPrimary" format="color"/>
+    <attr name="colorPrimaryDark" format="color"/>
+    <attr name="windowBackground" format="color"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="textColor" format="color"/>
+    <attr name="labelColor" format="color"/>
+    <attr name="previewBackColor" format="color"/>
+    <attr name="previewFrameColor" format="color"/>
+    <attr name="itemBackground" format="color"/>
+    <attr name="dividerColor" format="color"/>
+    <attr name="detailTitleColor" format="color"/>
+    <attr name="detailBackground" format="reference"/>
+
+</resources>

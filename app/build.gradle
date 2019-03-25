@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.opiumfive.telechart"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        archivesBaseName = "TeleChart-v$versionName"
+    }
+
+    signingConfigs {
+        signing {
+            keyAlias        'teletest'
+            keyPassword     'teletest'
+            storeFile  file('../teletest.jks')
+            storePassword   'teletest'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signing
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-core-ui:28.0.0'
+}
