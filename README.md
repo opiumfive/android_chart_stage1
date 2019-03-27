@@ -17,11 +17,6 @@ https://github.com/opiumfive/android_chart_canva/blob/master/telechart_demo.mp4
 https://github.com/opiumfive/android_chart_canva/blob/master/kalman1.mp4
 https://github.com/opiumfive/android_chart_canva/blob/master/kalman2.mp4
 
-Here's what it looks like in lowframerate gifs:
-
-![Output sample](https://github.com/opiumfive/android_chart_canva/raw/master/kalman1gif.gif)
-![Output sample](https://github.com/opiumfive/android_chart_canva/raw/master/kalman2gif.gif)
-
 <b>Some notes:</b> 
 - done by simple 2d canvas rendering without any TextureView, SurfaceView or OpenGLES;
 - fling support
