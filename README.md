@@ -29,3 +29,12 @@ https://github.com/opiumfive/android_chart_canva/blob/master/kalman2.mp4
 
 <b>Known issues:</b>
 - X, Y labels animations not pretty work
+
+<b>Telegram review:</b>
+Thank you for taking part in the Telegram March Competition for Android developers. Below we would like to share our feedback on your app with you:
+
+Unfortunately, your app doesn't fully comply with the design guidelines provided for the contest. Values on the graphs jitter when the page is scrolled.
+
+Please note that the task was to display the graphs on the same page.
+
+We hope that you enjoyed the first stage of the contest. You are welcome to take part in the next stage (April, 6-15).
