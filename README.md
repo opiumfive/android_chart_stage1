@@ -6,16 +6,16 @@ The criteria to define the winner are speed, efficiency and the size of the app.
 
 <b>Result apk (as it was uploaded - from initial commit):</b> 
 
-https://github.com/opiumfive/android_chart_canva/blob/master/TeleChart.apk
+https://github.com/opiumfive/android_chart_stage1/blob/master/TeleChart.apk
 
 <b>Small result video:</b> 
 
-https://github.com/opiumfive/android_chart_canva/blob/master/telechart_demo.mp4
+https://github.com/opiumfive/android_chart_stage1/blob/master/telechart_demo.mp4
 
 <b>Adaptive Kalman filter performance demos:</b> 
 
-https://github.com/opiumfive/android_chart_canva/blob/master/kalman1.mp4
-https://github.com/opiumfive/android_chart_canva/blob/master/kalman2.mp4
+https://github.com/opiumfive/android_chart_stage1/blob/master/kalman1.mp4
+https://github.com/opiumfive/android_chart_stage1/blob/master/kalman2.mp4
 
 <b>Some notes:</b> 
 - done by simple 2d canvas rendering without any TextureView, SurfaceView or OpenGLES;
