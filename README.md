@@ -1,4 +1,5 @@
 <b>Telegram March contest 2019.</b> 
+(link to April contest - https://github.com/opiumfive/android_chart_stage2)
 
 Goal is to show simple charts.
 
