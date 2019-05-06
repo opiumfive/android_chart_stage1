@@ -1,4 +1,4 @@
-<b>Telegram March contest 2019. (2 weeks)</b> 
+<b>Telegram March contest 2019. (2 weeks) (No prize place)</b> 
 (link to April contest - https://github.com/opiumfive/android_chart_stage2)
 
 Goal is to show simple charts.
